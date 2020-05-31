@@ -1,0 +1,29 @@
+{
+  "name": "innkeeper-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to act as compendium assistant for 5e",
+  "main": "innkeeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node innkeeper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iant426/innkeeper-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "Ian Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iant426/innkeeper-discord-bot/issues"
+  },
+  "homepage": "https://github.com/iant426/innkeeper-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "*"
+  }
+}
